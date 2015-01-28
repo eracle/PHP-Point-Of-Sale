@@ -1,0 +1,22 @@
+<?php
+$lang['config_info']='Informazioni sulla configurazione del negozio';
+$lang['config_company']='Nome societa';
+$lang['config_address']='Indirizzo societa';
+$lang['config_phone']='Telefono societa';
+$lang['config_website']='Pagina web';
+$lang['config_fax']='Fax';
+$lang['config_default_tax_rate']='Tasso IVA di Default %';
+$lang['config_default_tax_rate_1']='Tasso IVA 1';
+$lang['config_default_tax_rate_2']='Tasso IVA 2';
+$lang['config_company_required']='Il nome della societa è un campo obbligatorio';
+$lang['config_address_required']='Indirizzo della societa è un campo obbligatorio';
+
+$lang['config_phone_required']='Company phone is a required field';
+$lang['config_default_tax_rate_required']='The default tax rate is a required field';
+$lang['config_default_tax_rate_number']='The default tax rate must be a number';
+$lang['config_company_website_url']='Company website is not a valid URL (http://...)';
+$lang['config_saved_successfully']='Configuration saved successfully';
+$lang['config_saved_unsuccessfully']='Configuration saved unsuccessfully';
+$lang['config_return_policy_required']='Return policy is a required field';
+$lang['config_printe_after_sale']='Print receipt after sale';
+?>

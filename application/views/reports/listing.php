@@ -1,8 +1,8 @@
 <?php $this->load->view("partial/header"); ?>
 <div id="page_title" style="margin-bottom:8px;"><?php echo $this->lang->line('reports_reports'); ?></div>
 <div id="welcome_message"><?php echo $this->lang->line('reports_welcome_message'); ?>
-<ul id="report_list">
-	<li>Summary Reports
+<ul id="report_list"><br>
+	<li><?php echo $this->lang->line('reports_reports'); ?>:
 		<ul>
 			<li><a href="<?php echo site_url('reports/summary_sales');?>"><?php echo $this->lang->line('reports_sales'); ?></a></li>
 			<li><a href="<?php echo site_url('reports/summary_categories');?>"><?php echo $this->lang->line('reports_categories'); ?></a></li>
@@ -12,8 +12,8 @@
 			<li><a href="<?php echo site_url('reports/summary_employees');?>"><?php echo $this->lang->line('reports_employees'); ?></a></li>
 		</ul>
 	</li>
-	
-	<li>Detailed Reports
+	<br>
+	<li><?php echo $this->lang->line('detailed_reports'); ?>:
 		<ul>
 			<li><a href="<?php echo site_url('reports/detailed_sales');?>"><?php echo $this->lang->line('reports_sales'); ?></a></li>
 			<li><a href="<?php echo site_url('reports/specific_customer');?>"><?php echo $this->lang->line('reports_customer'); ?></a></li>

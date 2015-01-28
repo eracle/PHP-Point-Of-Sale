@@ -1,5 +1,6 @@
 <?php
 $lang['reports_reports'] = 'Laporan';
+$lang['detailed_reports'] = 'Laporan Rinci';
 $lang['reports_report'] = 'Laporan';
 $lang['reports_welcome_message'] = 'Selamat Datang ke panel laporan. Silakan pilih laporan untuk melihat.';
 $lang['reports_sales_summary_report'] = 'Laporan Ringkasan Penjualan';

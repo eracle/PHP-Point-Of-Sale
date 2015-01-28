@@ -1,5 +1,6 @@
 <?php
 $lang['reports_reports'] = 'Reports';
+$lang['detailed_reports'] = 'Detailed Reports';
 $lang['reports_report'] = 'Report';
 $lang['reports_welcome_message'] = 'Welcome to the reports panel. Please select a report to view.';
 $lang['reports_sales_summary_report'] = 'Sales Summary Report';
